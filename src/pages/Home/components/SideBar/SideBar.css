@@ -1,0 +1,16 @@
+
+.home--sideBar--container {
+	background: #fafafa;
+	padding: 5px 15px;
+	height: 100%;
+	width: calc(100% - 30px);
+}
+
+.home--sideBar--serchBox--wrap {
+	width: 100%;
+}
+
+.home--sideBar--sourceList--wrap{
+	width: 100%;
+	height: 100%;
+}

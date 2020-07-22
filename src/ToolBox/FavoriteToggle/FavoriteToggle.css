@@ -1,0 +1,18 @@
+
+
+.common--favoriteToggle--icon {
+	font-size: 16px;
+	color: #e0e0e0;
+	cursor: pointer;
+	transition: color 300ms;
+}
+
+.common--favoriteToggle--icon:hover {
+	color: #c0c0c0;
+}
+
+.common--favoriteToggle--icon--active {
+	font-size: 16px;
+	color: #3b3b3b;
+	cursor: pointer;
+}

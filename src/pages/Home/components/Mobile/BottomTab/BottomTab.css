@@ -1,0 +1,29 @@
+
+/* mobile */
+@media only screen  AND (max-width: 600px) { 
+
+	.home--bottomTab--M {
+		width: 100%;
+		height: 60px;
+		background: #fff;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		position: sticky;
+		bottom: 0;
+		z-index: 100;
+		box-shadow: -5px 0 5px 0 rgba(0, 0, 0, 0.07);
+	}
+
+	.home--bottomTab--icon--container--M {
+		
+	}
+
+	.home--bottomTab--icon--M {
+		padding: 5px 10px;
+		font-size: 16px;
+		margin: 0 40px;
+		color: #3b3b3b;
+	}
+
+}

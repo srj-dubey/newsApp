@@ -1,0 +1,38 @@
+
+.home--sideBar--loadingList--container {
+	background: #fff;
+	padding: 20px;
+	width: calc(100% - 40px);
+	/* height: 50px; */
+	overflow: hidden;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	border-radius: 5px;
+}
+
+.home--sideBar--loadingList--heading--container {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.home--sideBar--loadingList--name {
+	width: 120px;
+	height: 20px;
+	overflow: hidden;
+} 
+
+.home--sideBar--loadingList--category {
+	width: 70px;
+	height: 10px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.home--sideBar--loadingList--icon {
+	height: 15px;
+	width: 20px;
+	overflow: hidden;
+}

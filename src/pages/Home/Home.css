@@ -1,0 +1,41 @@
+
+.home--container {
+	height: 100vh;
+	width: 100vw;
+	background: #fafafa;
+	display: flex;
+}
+
+.home--sideBar--wrap {
+	width: 300px;
+	height: 100%;
+	background: #3b3b3b;
+}
+
+.home--mainArea--wrap {
+	flex: 1;
+	height: 100%;
+	background: #e0e0e0;
+}
+
+/* tablet */
+@media only screen and (min-width: 600px) AND (max-width: 800px) { 
+
+	.home--sideBar--wrap {
+		width: 250px;
+	}
+}
+
+/* mobile */
+@media only screen  AND (max-width: 600px) { 
+
+	.home--container--M {
+		height: 100%;
+		width: 100%;
+	}
+
+	.home--actual--container--M {
+		height: calc(100% - 50px);
+	}
+
+}

@@ -1,0 +1,32 @@
+
+.home--sideBar--searchBox--container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background: #fff;
+	margin: 12px 0 15px 0;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.home--sideBar--searchBox--input--container {
+	width: 80%;
+}
+
+.home--sideBar--searchBox--input--container input {
+	width: calc(100% - 20px);
+	padding: 15px 20px;
+	background: none;
+	border: none;
+}
+
+.home--sideBar--searchBox--icon--container {
+	width: 20%;
+	text-align: center;
+}
+
+.home--sideBar--searchBox--icon {
+	font-size: 16px;
+	font-weight: 500;
+	color: #3b3b3b;
+}
