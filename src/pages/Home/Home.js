@@ -17,7 +17,6 @@ import { useSelector } from 'react-redux'
 const Home = (props) => {
 
 	const app = useSelector((state) => state.app)
-	console.log(app.currentWindow)
 
 	return (
 		<div className="home--container">

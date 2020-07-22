@@ -68,6 +68,7 @@ const NewsBox = (props) => {
 						<FontAwesomeIcon 
 							icon={faExternalLinkAlt}
 							className="home--mainArea--newsBox--action--icon"
+							onClick={e => window.open(props.data.url, '_blank')}
 						/>		
 						<FavoriteToggle
 							favorite={favorite}

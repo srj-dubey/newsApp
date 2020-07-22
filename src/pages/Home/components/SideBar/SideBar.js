@@ -24,8 +24,6 @@ const SideBar = (props) => {
 		dispatch(sourceList())
 	}, [])
 
-	console.log(searchValue)
-
 	return (
 		<div className="home--sideBar--container">
 			<div className="home--sideBar--serchBox--wrap">
